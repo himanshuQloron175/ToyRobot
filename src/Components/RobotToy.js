@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ToyRobot.css'; 
+import './ToyRobot.css';
 
 const ToyRobot = () => {
   const [position, setPosition] = useState({ x: null, y: null, facing: null });
